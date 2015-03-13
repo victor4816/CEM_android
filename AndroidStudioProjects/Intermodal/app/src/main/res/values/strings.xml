@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Intermodal</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_administrador">Administrador</string>
+    <string name="title_activity_usuarios">Usuarios</string>
+    <string name="title_activity_personal">Personal</string>
+    <string name="title_activity_mantenimiento">Mantenimiento</string>
+    <string name="title_activity_equipos">Equipos</string>
+    <string name="title_activity_bodega">Bodega</string>
+    <string name="title_activity_compra">Compra</string>
+</resources>

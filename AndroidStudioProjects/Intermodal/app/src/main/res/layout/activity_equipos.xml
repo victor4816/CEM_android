@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.indatcom.intermodal.Equipos">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="number"
+        android:id="@+id/etIDEquipo"
+        android:hint="ID de equipo"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/etTipo"
+        android:hint="Tipo"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/etCaracteristicas"
+        android:hint="Caracteristicas"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/etCondicionActual"
+        android:hint="Condición actual"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="date"
+        android:id="@+id/etFechaRevision"
+        android:hint="Fecha de revisión"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/etFechaSiguienteRevision"
+        android:layout_weight="1"
+        android:hint="Fecha de siguiente revisión" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Buscar"
+        android:id="@+id/btnBuscar"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Agregar"
+        android:id="@+id/btnAgregar"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Modificar"
+        android:id="@+id/btnModificar"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Eliminar"
+        android:id="@+id/btnEliminar"
+        android:layout_weight="1" />
+
+
+</LinearLayout>
